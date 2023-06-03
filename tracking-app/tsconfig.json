@@ -1,0 +1,55 @@
+// {
+//   "compilerOptions": {
+//     "target": "es5",
+//     "lib": ["dom", "dom.iterable", "esnext"],
+//     "allowJs": true,
+//     "skipLibCheck": true,
+//     "strict": false,
+//     "forceConsistentCasingInFileNames": true,
+//     "noEmit": true,
+//     "esModuleInterop": true,
+//     "module": "esnext",
+//     "moduleResolution": "node",
+//     "resolveJsonModule": true,
+//     "isolatedModules": true,
+//     "jsx": "preserve"
+//   },
+//   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+//   "exclude": ["node_modules"]
+// }
+
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "lib": ["dom", "es6", "es2017", "esnext.asynciterable"],
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "allowJs": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
