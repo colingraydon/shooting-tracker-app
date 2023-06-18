@@ -8,6 +8,7 @@ const Index = () => (
     <DarkModeSwitch></DarkModeSwitch>
     <RepInfo></RepInfo>
     <Box>hello world</Box>
+    <RepInfo></RepInfo>
   </Box>
 );
 
